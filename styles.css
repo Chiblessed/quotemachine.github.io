@@ -4,6 +4,10 @@
     list-style: none;
     vertical-align: auto;
 }
+
+@media only screen and (
+    min-width: 768px,
+    max-width: 600px){
 body {
     background-color: black;
     color: #fff;
@@ -162,4 +166,7 @@ a {
       left: 90px;
       align-items: center;
       justify-content: center;
-} 
+}
+
+    
+}
