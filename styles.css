@@ -166,11 +166,15 @@ a {
 }
 
 
- @media (max-width: 100px) {
+      }
+ @media (max-width: 491px) {
    body {
 flex-direction: column;
 font-size: 0.8rem;
 width: 50px;
+   }
+   .container{
+    width: 30%;
    }
    div {
     font-size: 2px;
