@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -165,9 +166,38 @@ a {
 }
 
 
-    
-@media only screen (min-width: 320px) and (max-width: 768px) {
+ @media (max-width: 100px) {
+   body {
+flex-direction: column;
+font-size: 0.8rem;
+width: 50px;
+   }
+   div {
+    font-size: 2px;
+    width: ;
+   }
+   h1{ 
+    font-size: 1rem;
+   }
+   .quote-box {
+    width: 2px;
+   }
+ }
+ @media (max-width: 375px) {
     body {
-        background-color: #9FE2BF;
-    }
-}
+        flex-direction: column;
+        font-size: 20px;
+        display: flex;
+        width: 100px;
+           }
+           div {
+            font-size: 20px;
+            width: 5px;
+           }
+           h1{ 
+            font-size: 50px;
+           }
+           .quote-box {
+            width: 5px;
+           }
+ }
